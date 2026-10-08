@@ -1,0 +1,5 @@
+{
+  "schema": "architecture-provenance-v1",
+  "scope": "Not applicable in the final packet: case labels are architecture-shaped synthetic motifs, not source-derived or commit-pinned topologies.",
+  "sources": []
+}

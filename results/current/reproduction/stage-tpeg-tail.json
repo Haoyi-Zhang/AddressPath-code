@@ -1,0 +1,56 @@
+{
+  "stage": "tpeg-tail",
+  "status": "PASS",
+  "parent_cpu_s": 0.006476361999999999,
+  "child_cpu_s": 23.631041999999997,
+  "wall_s": 23.642344383000008,
+  "parent_peak_rss_kib": 15692,
+  "child_peak_rss_kib": 16576,
+  "steps": [
+    {
+      "arguments": [
+        "run_tpeg_cases.py",
+        "--start",
+        "39",
+        "--end",
+        "44",
+        "--output",
+        "reproduction/tpeg_results"
+      ],
+      "returncode": 0,
+      "wall_s": 23.038599489999996,
+      "output": "{\"cases\": [\"tpeg-039\", \"tpeg-040\", \"tpeg-041\", \"tpeg-042\", \"tpeg-043\", \"tpeg-044\"], \"workers\": 1, \"cpu_s\": 22.994687306, \"wall_s\": 22.998259680000004, \"peak_rss_kib\": 16540, \"states_per_independent_enumerator\": 24576, \"admitted_states\": 24576, \"certificates_checked\": 6}\n"
+    },
+    {
+      "arguments": [
+        "run_tpeg_cases.py",
+        "--start",
+        "45",
+        "--end",
+        "56",
+        "--output",
+        "reproduction/tpeg_results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.0555772559999923,
+      "output": "{\"cases\": [\"tpeg-045\", \"tpeg-046\", \"tpeg-047\", \"tpeg-048\", \"tpeg-049\", \"tpeg-050\", \"tpeg-051\", \"tpeg-052\", \"tpeg-053\", \"tpeg-054\", \"tpeg-055\", \"tpeg-056\"], \"workers\": 1, \"cpu_s\": 0.012994577, \"wall_s\": 0.012976245000004383, \"peak_rss_kib\": 15652, \"states_per_independent_enumerator\": 166, \"admitted_states\": 64, \"certificates_checked\": 0}\n"
+    },
+    {
+      "arguments": [
+        "run_tpeg_cases.py",
+        "--start",
+        "57",
+        "--end",
+        "72",
+        "--output",
+        "reproduction/tpeg_results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.5439406499999961,
+      "output": "{\"cases\": [\"tpeg-057\", \"tpeg-058\", \"tpeg-059\", \"tpeg-060\", \"tpeg-061\", \"tpeg-062\", \"tpeg-063\", \"tpeg-064\", \"tpeg-065\", \"tpeg-066\", \"tpeg-067\", \"tpeg-068\", \"tpeg-069\", \"tpeg-070\", \"tpeg-071\", \"tpeg-072\"], \"workers\": 1, \"cpu_s\": 0.4999369410000001, \"wall_s\": 0.5006409719999994, \"peak_rss_kib\": 15764, \"states_per_independent_enumerator\": 780, \"admitted_states\": 83, \"certificates_checked\": 14}\n"
+    }
+  ],
+  "total_cpu_s": 23.637518361999998,
+  "tpeg_cases_completed": 34,
+  "tpeg_cases_total": 72
+}

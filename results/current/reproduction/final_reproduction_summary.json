@@ -1,0 +1,100 @@
+{
+  "commands": [
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "/home/runner/work/AddressPath/AddressPath/reproduce.py",
+      "--output",
+      "/home/runner/work/AddressPath/AddressPath/reproduction",
+      "--stage",
+      "core"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "/home/runner/work/AddressPath/AddressPath/reproduce.py",
+      "--output",
+      "/home/runner/work/AddressPath/AddressPath/reproduction",
+      "--stage",
+      "tpeg-middle"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "/home/runner/work/AddressPath/AddressPath/reproduce.py",
+      "--output",
+      "/home/runner/work/AddressPath/AddressPath/reproduction",
+      "--stage",
+      "tpeg-tail"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "/home/runner/work/AddressPath/AddressPath/reproduce.py",
+      "--output",
+      "/home/runner/work/AddressPath/AddressPath/reproduction",
+      "--stage",
+      "validation"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "/home/runner/work/AddressPath/AddressPath/reviewer_hardening/run_suite.py",
+      "--output",
+      "/home/runner/work/AddressPath/AddressPath/reproduction/reviewer_hardening"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "/home/runner/work/AddressPath/AddressPath/reviewer_hardening/verify_architecture_cases.py",
+      "--output",
+      "/home/runner/work/AddressPath/AddressPath/reproduction/architecture_case_results.json"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "reviewer_hardening/test_architecture_cases.py"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "reviewer_hardening/test_path_budget.py"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "tests/test_path_enumeration.py"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "tests/test_reproduction_gates.py"
+    ],
+    [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "tests/test_signature_loading.py"
+    ]
+  ],
+  "output": "/home/runner/work/AddressPath/AddressPath/reproduction",
+  "python": "3.12.14 (main, Aug 13 2026, 02:47:42) [GCC 13.3.0]",
+  "root": "/home/runner/work/AddressPath/AddressPath",
+  "status": "PASS",
+  "timings_seconds": {
+    "architecture_case_tests": 0.08382781700001374,
+    "architecture_cases": 0.03209199900001636,
+    "core": 1.776122977,
+    "path_budget_tests": 0.07510594000001447,
+    "path_enumeration_tests": 0.08417938200000208,
+    "reproduction_gates_tests": 0.19010025699998323,
+    "reviewer_hardening": 11.937419581000015,
+    "signature_loading_tests": 0.3352780890000133,
+    "tpeg-middle": 25.129667640999998,
+    "tpeg-tail": 23.698890074999994,
+    "validation": 21.050946538000005
+  }
+}

@@ -1,0 +1,40 @@
+[reproduce:core] START generate.py --output reproduction/cases
+[reproduce:core] END   generate.py --output reproduction/cases (0.15s)
+[reproduce:core] START run_cases.py --start 1 --end 12 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 1 --end 12 --output reproduction/results (0.06s)
+[reproduce:core] START run_cases.py --start 13 --end 24 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 13 --end 24 --output reproduction/results (0.06s)
+[reproduce:core] START run_cases.py --start 25 --end 36 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 25 --end 36 --output reproduction/results (0.13s)
+[reproduce:core] START run_cases.py --start 37 --end 48 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 37 --end 48 --output reproduction/results (0.10s)
+[reproduce:core] START run_cases.py --start 49 --end 60 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 49 --end 60 --output reproduction/results (0.35s)
+[reproduce:core] START run_cases.py --start 61 --end 72 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 61 --end 72 --output reproduction/results (0.06s)
+[reproduce:core] START run_cases.py --start 73 --end 84 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 73 --end 84 --output reproduction/results (0.05s)
+[reproduce:core] START run_cases.py --start 85 --end 86 --output reproduction/results
+[reproduce:core] END   run_cases.py --start 85 --end 86 --output reproduction/results (0.03s)
+[reproduce:core] START generate_tpeg.py --output reproduction/tpeg_cases
+[reproduce:core] END   generate_tpeg.py --output reproduction/tpeg_cases (0.03s)
+[reproduce:core] START run_tpeg_cases.py --start 1 --end 8 --output reproduction/tpeg_results
+[reproduce:core] END   run_tpeg_cases.py --start 1 --end 8 --output reproduction/tpeg_results (0.05s)
+[reproduce:core] START run_tpeg_cases.py --start 9 --end 16 --output reproduction/tpeg_results
+[reproduce:core] END   run_tpeg_cases.py --start 9 --end 16 --output reproduction/tpeg_results (0.05s)
+[reproduce:core] START run_tpeg_cases.py --start 17 --end 24 --output reproduction/tpeg_results
+[reproduce:core] END   run_tpeg_cases.py --start 17 --end 24 --output reproduction/tpeg_results (0.30s)
+[reproduce:core] START run_tpeg_cases.py --start 25 --end 26 --output reproduction/tpeg_results
+[reproduce:core] END   run_tpeg_cases.py --start 25 --end 26 --output reproduction/tpeg_results (0.24s)
+{
+  "stage": "core",
+  "status": "PASS",
+  "parent_cpu_s": 0.023442735,
+  "child_cpu_s": 1.557331,
+  "wall_s": 1.7008995979999995,
+  "parent_peak_rss_kib": 15408,
+  "child_peak_rss_kib": 15792,
+  "total_cpu_s": 1.580773735,
+  "arithmetic_cases": 86,
+  "tpeg_cases_completed": 26
+}

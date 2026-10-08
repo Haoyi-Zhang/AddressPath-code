@@ -1,0 +1,15 @@
+[reproduce:tpeg-middle] START run_tpeg_cases.py --start 27 --end 32 --output reproduction/tpeg_results
+[reproduce:tpeg-middle] END   run_tpeg_cases.py --start 27 --end 32 --output reproduction/tpeg_results (12.16s)
+[reproduce:tpeg-middle] START run_tpeg_cases.py --start 33 --end 38 --output reproduction/tpeg_results
+[reproduce:tpeg-middle] END   run_tpeg_cases.py --start 33 --end 38 --output reproduction/tpeg_results (12.91s)
+{
+  "stage": "tpeg-middle",
+  "status": "PASS",
+  "parent_cpu_s": 0.0018743469999999984,
+  "child_cpu_s": 25.065799,
+  "wall_s": 25.073917181,
+  "parent_peak_rss_kib": 15408,
+  "child_peak_rss_kib": 16164,
+  "total_cpu_s": 25.067673347,
+  "tpeg_cases_completed": 12
+}

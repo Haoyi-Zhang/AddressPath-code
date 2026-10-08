@@ -1,0 +1,7 @@
+test_byte_limit_remains_fail_closed_before_json_parsing (tests.test_signature_loading.SignatureLoadingTests.test_byte_limit_remains_fail_closed_before_json_parsing) ... ok
+test_safe_legal_model_has_cover_identifier_lower_bound_above_file_cap (tests.test_signature_loading.SignatureLoadingTests.test_safe_legal_model_has_cover_identifier_lower_bound_above_file_cap) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.185s
+
+OK

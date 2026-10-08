@@ -1,0 +1,21 @@
+test_cut_that_misses_path_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_cut_that_misses_path_rejected) ... ok
+test_cycle_rejected_during_path_reconstruction (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_cycle_rejected_during_path_reconstruction) ... ok
+test_duplicate_json_key_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_duplicate_json_key_rejected) ... ok
+test_duplicate_path_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_duplicate_path_rejected) ... ok
+test_expectation_drift_detected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_expectation_drift_detected) ... ok
+test_float_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_float_rejected) ... ok
+test_forged_none_with_extra_fields_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_forged_none_with_extra_fields_rejected) ... ok
+test_missing_path_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_missing_path_rejected) ... ok
+test_negative_multiplier_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_negative_multiplier_rejected) ... ok
+test_nonbinary_edge_variable_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_nonbinary_edge_variable_rejected) ... ok
+test_noncanonical_path_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_noncanonical_path_rejected) ... ok
+test_unconstrained_bypass_is_unsafe (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_unconstrained_bypass_is_unsafe) ... ok
+test_unknown_case_field (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_unknown_case_field) ... ok
+test_unknown_witness_row_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_unknown_witness_row_rejected) ... ok
+test_valid_suite (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_valid_suite) ... ok
+test_wrong_multiplier_rejected (reviewer_hardening.test_architecture_cases.ArchitectureCaseTests.test_wrong_multiplier_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.003s
+
+OK

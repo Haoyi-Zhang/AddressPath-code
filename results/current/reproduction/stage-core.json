@@ -1,0 +1,202 @@
+{
+  "stage": "core",
+  "status": "PASS",
+  "parent_cpu_s": 0.023442735,
+  "child_cpu_s": 1.557331,
+  "wall_s": 1.7008995979999995,
+  "parent_peak_rss_kib": 15408,
+  "child_peak_rss_kib": 15792,
+  "steps": [
+    {
+      "arguments": [
+        "generate.py",
+        "--output",
+        "reproduction/cases"
+      ],
+      "returncode": 0,
+      "wall_s": 0.1463434389999989,
+      "output": "86 models written to reproduction/cases\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "1",
+        "--end",
+        "12",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.06198528099999834,
+      "output": "{\"cases\": [\"case-001\", \"case-002\", \"case-003\", \"case-004\", \"case-005\", \"case-006\", \"case-007\", \"case-008\", \"case-009\", \"case-010\", \"case-011\", \"case-012\"], \"workers\": 1, \"cpu_s\": 0.022995468000000005, \"wall_s\": 0.023006057000003466, \"peak_rss_kib\": 15408, \"basis_systems\": 768, \"finite_states_per_enumerator\": 97, \"certificates_checked\": 8}\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "13",
+        "--end",
+        "24",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.05620471299999963,
+      "output": "{\"cases\": [\"case-013\", \"case-014\", \"case-015\", \"case-016\", \"case-017\", \"case-018\", \"case-019\", \"case-020\", \"case-021\", \"case-022\", \"case-023\", \"case-024\"], \"workers\": 1, \"cpu_s\": 0.020994588999999998, \"wall_s\": 0.021190656999998225, \"peak_rss_kib\": 15408, \"basis_systems\": 656, \"finite_states_per_enumerator\": 199, \"certificates_checked\": 4}\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "25",
+        "--end",
+        "36",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.13119036199999812,
+      "output": "{\"cases\": [\"case-025\", \"case-026\", \"case-027\", \"case-028\", \"case-029\", \"case-030\", \"case-031\", \"case-032\", \"case-033\", \"case-034\", \"case-035\", \"case-036\"], \"workers\": 1, \"cpu_s\": 0.095982319, \"wall_s\": 0.09601137000000648, \"peak_rss_kib\": 15408, \"basis_systems\": 3396, \"finite_states_per_enumerator\": 184, \"certificates_checked\": 3}\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "37",
+        "--end",
+        "48",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.10373693900000092,
+      "output": "{\"cases\": [\"case-037\", \"case-038\", \"case-039\", \"case-040\", \"case-041\", \"case-042\", \"case-043\", \"case-044\", \"case-045\", \"case-046\", \"case-047\", \"case-048\"], \"workers\": 1, \"cpu_s\": 0.06595975899999999, \"wall_s\": 0.06647906399999925, \"peak_rss_kib\": 15408, \"basis_systems\": 2174, \"finite_states_per_enumerator\": 272, \"certificates_checked\": 9}\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "49",
+        "--end",
+        "60",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.3488475150000028,
+      "output": "{\"cases\": [\"case-049\", \"case-050\", \"case-051\", \"case-052\", \"case-053\", \"case-054\", \"case-055\", \"case-056\", \"case-057\", \"case-058\", \"case-059\", \"case-060\"], \"workers\": 1, \"cpu_s\": 0.311958301, \"wall_s\": 0.31193901699999316, \"peak_rss_kib\": 15408, \"basis_systems\": 737, \"finite_states_per_enumerator\": 8284, \"certificates_checked\": 8}\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "61",
+        "--end",
+        "72",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.061984688999999094,
+      "output": "{\"cases\": [\"case-061\", \"case-062\", \"case-063\", \"case-064\", \"case-065\", \"case-066\", \"case-067\", \"case-068\", \"case-069\", \"case-070\", \"case-071\", \"case-072\"], \"workers\": 1, \"cpu_s\": 0.026992902, \"wall_s\": 0.0265289670000044, \"peak_rss_kib\": 15408, \"basis_systems\": 696, \"finite_states_per_enumerator\": 232, \"certificates_checked\": 9}\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "73",
+        "--end",
+        "84",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.054771290000005024,
+      "output": "{\"cases\": [\"case-073\", \"case-074\", \"case-075\", \"case-076\", \"case-077\", \"case-078\", \"case-079\", \"case-080\", \"case-081\", \"case-082\", \"case-083\", \"case-084\"], \"workers\": 1, \"cpu_s\": 0.01999565, \"wall_s\": 0.01967827999999372, \"peak_rss_kib\": 15408, \"basis_systems\": 572, \"finite_states_per_enumerator\": 145, \"certificates_checked\": 6}\n"
+    },
+    {
+      "arguments": [
+        "run_cases.py",
+        "--start",
+        "85",
+        "--end",
+        "86",
+        "--output",
+        "reproduction/results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.03489133699999769,
+      "output": "{\"cases\": [\"case-085\", \"case-086\"], \"workers\": 1, \"cpu_s\": 0.0010017080000000005, \"wall_s\": 0.0012612689999969007, \"peak_rss_kib\": 15408, \"basis_systems\": 22, \"finite_states_per_enumerator\": 6, \"certificates_checked\": 2}\n"
+    },
+    {
+      "arguments": [
+        "generate_tpeg.py",
+        "--output",
+        "reproduction/tpeg_cases"
+      ],
+      "returncode": 0,
+      "wall_s": 0.03184675499999656,
+      "output": "72 TPEG models written to reproduction/tpeg_cases\n"
+    },
+    {
+      "arguments": [
+        "run_tpeg_cases.py",
+        "--start",
+        "1",
+        "--end",
+        "8",
+        "--output",
+        "reproduction/tpeg_results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.05447871999999876,
+      "output": "{\"cases\": [\"tpeg-001\", \"tpeg-002\", \"tpeg-003\", \"tpeg-004\", \"tpeg-005\", \"tpeg-006\", \"tpeg-007\", \"tpeg-008\"], \"workers\": 1, \"cpu_s\": 0.01599391, \"wall_s\": 0.015888119999999617, \"peak_rss_kib\": 15604, \"states_per_independent_enumerator\": 93, \"admitted_states\": 10, \"certificates_checked\": 6}\n"
+    },
+    {
+      "arguments": [
+        "run_tpeg_cases.py",
+        "--start",
+        "9",
+        "--end",
+        "16",
+        "--output",
+        "reproduction/tpeg_results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.054603306999993606,
+      "output": "{\"cases\": [\"tpeg-009\", \"tpeg-010\", \"tpeg-011\", \"tpeg-012\", \"tpeg-013\", \"tpeg-014\", \"tpeg-015\", \"tpeg-016\"], \"workers\": 1, \"cpu_s\": 0.016996248, \"wall_s\": 0.01642579900000385, \"peak_rss_kib\": 15620, \"states_per_independent_enumerator\": 193, \"admitted_states\": 12, \"certificates_checked\": 4}\n"
+    },
+    {
+      "arguments": [
+        "run_tpeg_cases.py",
+        "--start",
+        "17",
+        "--end",
+        "24",
+        "--output",
+        "reproduction/tpeg_results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.3046108870000026,
+      "output": "{\"cases\": [\"tpeg-017\", \"tpeg-018\", \"tpeg-019\", \"tpeg-020\", \"tpeg-021\", \"tpeg-022\", \"tpeg-023\", \"tpeg-024\"], \"workers\": 1, \"cpu_s\": 0.26596641299999996, \"wall_s\": 0.2658939530000026, \"peak_rss_kib\": 15596, \"states_per_independent_enumerator\": 338, \"admitted_states\": 32, \"certificates_checked\": 6}\n"
+    },
+    {
+      "arguments": [
+        "run_tpeg_cases.py",
+        "--start",
+        "25",
+        "--end",
+        "26",
+        "--output",
+        "reproduction/tpeg_results"
+      ],
+      "returncode": 0,
+      "wall_s": 0.239306268,
+      "output": "{\"cases\": [\"tpeg-025\", \"tpeg-026\"], \"workers\": 1, \"cpu_s\": 0.198988621, \"wall_s\": 0.19860443200000333, \"peak_rss_kib\": 15604, \"states_per_independent_enumerator\": 512, \"admitted_states\": 32, \"certificates_checked\": 2}\n"
+    }
+  ],
+  "total_cpu_s": 1.580773735,
+  "arithmetic_cases": 86,
+  "tpeg_cases_completed": 26
+}

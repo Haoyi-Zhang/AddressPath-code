@@ -1,0 +1,15 @@
+test_alternating_n2_full_box_budget_and_signature_count (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_alternating_n2_full_box_budget_and_signature_count) ... ok
+test_bool_rational_component_rejected (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_bool_rational_component_rejected) ... ok
+test_constant_zero_indicator_rejected (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_constant_zero_indicator_rejected) ... ok
+test_dummy_fixed_zero_indicator_rejected (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_dummy_fixed_zero_indicator_rejected) ... ok
+test_float_rational_component_rejected (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_float_rational_component_rejected) ... ok
+test_integer_empty_model_is_inconsistent_and_not_proved (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_integer_empty_model_is_inconsistent_and_not_proved) ... ok
+test_missing_witness_rejected (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_missing_witness_rejected) ... ok
+test_two_half_indicators_rejected (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_two_half_indicators_rejected) ... ok
+test_unsafe_certificate_rejected_by_both (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_unsafe_certificate_rejected_by_both) ... ok
+test_witness_constraint_violation_rejected (reviewer_hardening.test_path_budget.PathBudgetRegressionTests.test_witness_constraint_violation_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.003s
+
+OK

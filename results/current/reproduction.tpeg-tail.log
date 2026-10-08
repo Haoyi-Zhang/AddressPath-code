@@ -1,0 +1,18 @@
+[reproduce:tpeg-tail] START run_tpeg_cases.py --start 39 --end 44 --output reproduction/tpeg_results
+[reproduce:tpeg-tail] END   run_tpeg_cases.py --start 39 --end 44 --output reproduction/tpeg_results (23.04s)
+[reproduce:tpeg-tail] START run_tpeg_cases.py --start 45 --end 56 --output reproduction/tpeg_results
+[reproduce:tpeg-tail] END   run_tpeg_cases.py --start 45 --end 56 --output reproduction/tpeg_results (0.06s)
+[reproduce:tpeg-tail] START run_tpeg_cases.py --start 57 --end 72 --output reproduction/tpeg_results
+[reproduce:tpeg-tail] END   run_tpeg_cases.py --start 57 --end 72 --output reproduction/tpeg_results (0.54s)
+{
+  "stage": "tpeg-tail",
+  "status": "PASS",
+  "parent_cpu_s": 0.006476361999999999,
+  "child_cpu_s": 23.631041999999997,
+  "wall_s": 23.642344383000008,
+  "parent_peak_rss_kib": 15692,
+  "child_peak_rss_kib": 16576,
+  "total_cpu_s": 23.637518361999998,
+  "tpeg_cases_completed": 34,
+  "tpeg_cases_total": 72
+}

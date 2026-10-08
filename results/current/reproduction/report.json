@@ -1,0 +1,413 @@
+{
+  "status": "PASS",
+  "arithmetic_cases": 86,
+  "tpeg_cases": 72,
+  "arithmetic_meta_models": 3915,
+  "tpeg_meta_antichains": 2865,
+  "test_methods": 74,
+  "workers": 1,
+  "stages": [
+    {
+      "stage": "core",
+      "status": "PASS",
+      "parent_cpu_s": 0.023442735,
+      "child_cpu_s": 1.557331,
+      "wall_s": 1.7008995979999995,
+      "parent_peak_rss_kib": 15408,
+      "child_peak_rss_kib": 15792,
+      "steps": [
+        {
+          "arguments": [
+            "generate.py",
+            "--output",
+            "reproduction/cases"
+          ],
+          "returncode": 0,
+          "wall_s": 0.1463434389999989,
+          "output": "86 models written to reproduction/cases\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "1",
+            "--end",
+            "12",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.06198528099999834,
+          "output": "{\"cases\": [\"case-001\", \"case-002\", \"case-003\", \"case-004\", \"case-005\", \"case-006\", \"case-007\", \"case-008\", \"case-009\", \"case-010\", \"case-011\", \"case-012\"], \"workers\": 1, \"cpu_s\": 0.022995468000000005, \"wall_s\": 0.023006057000003466, \"peak_rss_kib\": 15408, \"basis_systems\": 768, \"finite_states_per_enumerator\": 97, \"certificates_checked\": 8}\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "13",
+            "--end",
+            "24",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.05620471299999963,
+          "output": "{\"cases\": [\"case-013\", \"case-014\", \"case-015\", \"case-016\", \"case-017\", \"case-018\", \"case-019\", \"case-020\", \"case-021\", \"case-022\", \"case-023\", \"case-024\"], \"workers\": 1, \"cpu_s\": 0.020994588999999998, \"wall_s\": 0.021190656999998225, \"peak_rss_kib\": 15408, \"basis_systems\": 656, \"finite_states_per_enumerator\": 199, \"certificates_checked\": 4}\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "25",
+            "--end",
+            "36",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.13119036199999812,
+          "output": "{\"cases\": [\"case-025\", \"case-026\", \"case-027\", \"case-028\", \"case-029\", \"case-030\", \"case-031\", \"case-032\", \"case-033\", \"case-034\", \"case-035\", \"case-036\"], \"workers\": 1, \"cpu_s\": 0.095982319, \"wall_s\": 0.09601137000000648, \"peak_rss_kib\": 15408, \"basis_systems\": 3396, \"finite_states_per_enumerator\": 184, \"certificates_checked\": 3}\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "37",
+            "--end",
+            "48",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.10373693900000092,
+          "output": "{\"cases\": [\"case-037\", \"case-038\", \"case-039\", \"case-040\", \"case-041\", \"case-042\", \"case-043\", \"case-044\", \"case-045\", \"case-046\", \"case-047\", \"case-048\"], \"workers\": 1, \"cpu_s\": 0.06595975899999999, \"wall_s\": 0.06647906399999925, \"peak_rss_kib\": 15408, \"basis_systems\": 2174, \"finite_states_per_enumerator\": 272, \"certificates_checked\": 9}\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "49",
+            "--end",
+            "60",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.3488475150000028,
+          "output": "{\"cases\": [\"case-049\", \"case-050\", \"case-051\", \"case-052\", \"case-053\", \"case-054\", \"case-055\", \"case-056\", \"case-057\", \"case-058\", \"case-059\", \"case-060\"], \"workers\": 1, \"cpu_s\": 0.311958301, \"wall_s\": 0.31193901699999316, \"peak_rss_kib\": 15408, \"basis_systems\": 737, \"finite_states_per_enumerator\": 8284, \"certificates_checked\": 8}\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "61",
+            "--end",
+            "72",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.061984688999999094,
+          "output": "{\"cases\": [\"case-061\", \"case-062\", \"case-063\", \"case-064\", \"case-065\", \"case-066\", \"case-067\", \"case-068\", \"case-069\", \"case-070\", \"case-071\", \"case-072\"], \"workers\": 1, \"cpu_s\": 0.026992902, \"wall_s\": 0.0265289670000044, \"peak_rss_kib\": 15408, \"basis_systems\": 696, \"finite_states_per_enumerator\": 232, \"certificates_checked\": 9}\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "73",
+            "--end",
+            "84",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.054771290000005024,
+          "output": "{\"cases\": [\"case-073\", \"case-074\", \"case-075\", \"case-076\", \"case-077\", \"case-078\", \"case-079\", \"case-080\", \"case-081\", \"case-082\", \"case-083\", \"case-084\"], \"workers\": 1, \"cpu_s\": 0.01999565, \"wall_s\": 0.01967827999999372, \"peak_rss_kib\": 15408, \"basis_systems\": 572, \"finite_states_per_enumerator\": 145, \"certificates_checked\": 6}\n"
+        },
+        {
+          "arguments": [
+            "run_cases.py",
+            "--start",
+            "85",
+            "--end",
+            "86",
+            "--output",
+            "reproduction/results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.03489133699999769,
+          "output": "{\"cases\": [\"case-085\", \"case-086\"], \"workers\": 1, \"cpu_s\": 0.0010017080000000005, \"wall_s\": 0.0012612689999969007, \"peak_rss_kib\": 15408, \"basis_systems\": 22, \"finite_states_per_enumerator\": 6, \"certificates_checked\": 2}\n"
+        },
+        {
+          "arguments": [
+            "generate_tpeg.py",
+            "--output",
+            "reproduction/tpeg_cases"
+          ],
+          "returncode": 0,
+          "wall_s": 0.03184675499999656,
+          "output": "72 TPEG models written to reproduction/tpeg_cases\n"
+        },
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "1",
+            "--end",
+            "8",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.05447871999999876,
+          "output": "{\"cases\": [\"tpeg-001\", \"tpeg-002\", \"tpeg-003\", \"tpeg-004\", \"tpeg-005\", \"tpeg-006\", \"tpeg-007\", \"tpeg-008\"], \"workers\": 1, \"cpu_s\": 0.01599391, \"wall_s\": 0.015888119999999617, \"peak_rss_kib\": 15604, \"states_per_independent_enumerator\": 93, \"admitted_states\": 10, \"certificates_checked\": 6}\n"
+        },
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "9",
+            "--end",
+            "16",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.054603306999993606,
+          "output": "{\"cases\": [\"tpeg-009\", \"tpeg-010\", \"tpeg-011\", \"tpeg-012\", \"tpeg-013\", \"tpeg-014\", \"tpeg-015\", \"tpeg-016\"], \"workers\": 1, \"cpu_s\": 0.016996248, \"wall_s\": 0.01642579900000385, \"peak_rss_kib\": 15620, \"states_per_independent_enumerator\": 193, \"admitted_states\": 12, \"certificates_checked\": 4}\n"
+        },
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "17",
+            "--end",
+            "24",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.3046108870000026,
+          "output": "{\"cases\": [\"tpeg-017\", \"tpeg-018\", \"tpeg-019\", \"tpeg-020\", \"tpeg-021\", \"tpeg-022\", \"tpeg-023\", \"tpeg-024\"], \"workers\": 1, \"cpu_s\": 0.26596641299999996, \"wall_s\": 0.2658939530000026, \"peak_rss_kib\": 15596, \"states_per_independent_enumerator\": 338, \"admitted_states\": 32, \"certificates_checked\": 6}\n"
+        },
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "25",
+            "--end",
+            "26",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.239306268,
+          "output": "{\"cases\": [\"tpeg-025\", \"tpeg-026\"], \"workers\": 1, \"cpu_s\": 0.198988621, \"wall_s\": 0.19860443200000333, \"peak_rss_kib\": 15604, \"states_per_independent_enumerator\": 512, \"admitted_states\": 32, \"certificates_checked\": 2}\n"
+        }
+      ],
+      "total_cpu_s": 1.580773735,
+      "arithmetic_cases": 86,
+      "tpeg_cases_completed": 26
+    },
+    {
+      "stage": "tpeg-middle",
+      "status": "PASS",
+      "parent_cpu_s": 0.0018743469999999984,
+      "child_cpu_s": 25.065799,
+      "wall_s": 25.073917181,
+      "parent_peak_rss_kib": 15408,
+      "child_peak_rss_kib": 16164,
+      "steps": [
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "27",
+            "--end",
+            "32",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 12.159600781000002,
+          "output": "{\"cases\": [\"tpeg-027\", \"tpeg-028\", \"tpeg-029\", \"tpeg-030\", \"tpeg-031\", \"tpeg-032\"], \"workers\": 1, \"cpu_s\": 12.116694827, \"wall_s\": 12.118289524999994, \"peak_rss_kib\": 15752, \"states_per_independent_enumerator\": 9778, \"admitted_states\": 706, \"certificates_checked\": 6}\n"
+        },
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "33",
+            "--end",
+            "38",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 12.912684756999994,
+          "output": "{\"cases\": [\"tpeg-033\", \"tpeg-034\", \"tpeg-035\", \"tpeg-036\", \"tpeg-037\", \"tpeg-038\"], \"workers\": 1, \"cpu_s\": 12.871363602, \"wall_s\": 12.872827977, \"peak_rss_kib\": 16016, \"states_per_independent_enumerator\": 12822, \"admitted_states\": 5682, \"certificates_checked\": 6}\n"
+        }
+      ],
+      "total_cpu_s": 25.067673347,
+      "tpeg_cases_completed": 12
+    },
+    {
+      "stage": "tpeg-tail",
+      "status": "PASS",
+      "parent_cpu_s": 0.006476361999999999,
+      "child_cpu_s": 23.631041999999997,
+      "wall_s": 23.642344383000008,
+      "parent_peak_rss_kib": 15692,
+      "child_peak_rss_kib": 16576,
+      "steps": [
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "39",
+            "--end",
+            "44",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 23.038599489999996,
+          "output": "{\"cases\": [\"tpeg-039\", \"tpeg-040\", \"tpeg-041\", \"tpeg-042\", \"tpeg-043\", \"tpeg-044\"], \"workers\": 1, \"cpu_s\": 22.994687306, \"wall_s\": 22.998259680000004, \"peak_rss_kib\": 16540, \"states_per_independent_enumerator\": 24576, \"admitted_states\": 24576, \"certificates_checked\": 6}\n"
+        },
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "45",
+            "--end",
+            "56",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.0555772559999923,
+          "output": "{\"cases\": [\"tpeg-045\", \"tpeg-046\", \"tpeg-047\", \"tpeg-048\", \"tpeg-049\", \"tpeg-050\", \"tpeg-051\", \"tpeg-052\", \"tpeg-053\", \"tpeg-054\", \"tpeg-055\", \"tpeg-056\"], \"workers\": 1, \"cpu_s\": 0.012994577, \"wall_s\": 0.012976245000004383, \"peak_rss_kib\": 15652, \"states_per_independent_enumerator\": 166, \"admitted_states\": 64, \"certificates_checked\": 0}\n"
+        },
+        {
+          "arguments": [
+            "run_tpeg_cases.py",
+            "--start",
+            "57",
+            "--end",
+            "72",
+            "--output",
+            "reproduction/tpeg_results"
+          ],
+          "returncode": 0,
+          "wall_s": 0.5439406499999961,
+          "output": "{\"cases\": [\"tpeg-057\", \"tpeg-058\", \"tpeg-059\", \"tpeg-060\", \"tpeg-061\", \"tpeg-062\", \"tpeg-063\", \"tpeg-064\", \"tpeg-065\", \"tpeg-066\", \"tpeg-067\", \"tpeg-068\", \"tpeg-069\", \"tpeg-070\", \"tpeg-071\", \"tpeg-072\"], \"workers\": 1, \"cpu_s\": 0.4999369410000001, \"wall_s\": 0.5006409719999994, \"peak_rss_kib\": 15764, \"states_per_independent_enumerator\": 780, \"admitted_states\": 83, \"certificates_checked\": 14}\n"
+        }
+      ],
+      "total_cpu_s": 23.637518361999998,
+      "tpeg_cases_completed": 34,
+      "tpeg_cases_total": 72
+    },
+    {
+      "stage": "validation",
+      "status": "PASS",
+      "parent_cpu_s": 0.006517424000000004,
+      "child_cpu_s": 20.709568,
+      "wall_s": 20.744109959,
+      "parent_peak_rss_kib": 15436,
+      "child_peak_rss_kib": 19712,
+      "steps": [
+        {
+          "arguments": [
+            "run_tests.py",
+            "--output",
+            "reproduction/validation"
+          ],
+          "returncode": 0,
+          "wall_s": 15.588896957000003,
+          "output": "{\"methods\": 74, \"passed\": true, \"failures\": 0, \"errors\": 0, \"cpu_s\": 15.483515278, \"wall_s\": 15.485808219999996, \"peak_rss_kib\": 19584, \"arithmetic_certificate_calls\": 212, \"tpeg_certificate_calls\": 77, \"accepted\": 174, \"rejected\": 115, \"finite_cover_state_visit_upper_bound\": 4285, \"signature_cover_state_visit_upper_bound\": 57352, \"certificate_calls\": 289}\n"
+        },
+        {
+          "arguments": [
+            "exhaustive_meta.py",
+            "--output",
+            "reproduction/validation/meta-check.json"
+          ],
+          "returncode": 0,
+          "wall_s": 1.6535856739999986,
+          "output": "{\n  \"vertices\": 4,\n  \"possible_topological_edges\": 6,\n  \"max_graph_edges\": 4,\n  \"structurally_relevant_graphs\": 40,\n  \"maximal_signature_antichains\": 2865,\n  \"signature_members_checked\": 7398,\n  \"safe_families\": 683,\n  \"unsafe_families\": 2182,\n  \"uniform_cut_safe_families\": 363,\n  \"signature_cover_only_safe_families\": 320,\n  \"source_side_sets_per_family\": 4,\n  \"source_side_sets_checked\": 11460,\n  \"checks\": {\n    \"maximal_signature_characterization\": \"PASS\",\n    \"uniform_zero_cut_characterization\": \"PASS\"\n  },\n  \"cpu_s\": 1.62682842,\n  \"wall_s\": 1.626521181000001,\n  \"peak_rss_kib\": 15824\n}\n"
+        },
+        {
+          "arguments": [
+            "exhaustive_arithmetic_meta.py",
+            "--output",
+            "reproduction/validation/arithmetic-meta-check.json"
+          ],
+          "returncode": 0,
+          "wall_s": 1.124561884000002,
+          "output": "{\n  \"models\": 3915,\n  \"one_input_models\": 3375,\n  \"two_input_models\": 540,\n  \"finite_states_evaluated\": 11160,\n  \"admitted_states\": 4106,\n  \"violating_states\": 1513,\n  \"status_counts\": {\n    \"INCONSISTENT\": 1752,\n    \"INSUFFICIENT\": 941,\n    \"PROVED\": 1222\n  },\n  \"certificate_kind_counts\": {\n    \"finite_cover\": 40,\n    \"inconsistent\": 1712,\n    \"linear\": 1182,\n    \"quantized\": 40\n  },\n  \"proof_layer_counts\": {\n    \"finite_cover\": 40,\n    \"linear_or_inconsistency\": 2894,\n    \"no_certificate\": 941,\n    \"quantized\": 40\n  },\n  \"maximum_basis_systems\": 43,\n  \"checks\": {\n    \"direct_status_vs_producer\": \"PASS\",\n    \"favorable_certificate_vs_checker\": \"PASS\",\n    \"insufficient_has_no_certificate\": \"PASS\",\n    \"all_decisions_and_certificate_kinds_exercised\": \"PASS\"\n  },\n  \"cpu_s\": 1.087887258,\n  \"wall_s\": 1.0872062629999988,\n  \"peak_rss_kib\": 15600\n}\n"
+        },
+        {
+          "arguments": [
+            "summarize.py",
+            "--source",
+            "reproduction/results",
+            "--output",
+            "reproduction/tables"
+          ],
+          "returncode": 0,
+          "wall_s": 0.03020381299999997,
+          "output": "{\n  \"cases\": 86,\n  \"exact\": {\n    \"PROVED\": 41,\n    \"INSUFFICIENT\": 37,\n    \"INCONSISTENT\": 8\n  },\n  \"linear\": {\n    \"PROVED\": 22,\n    \"INSUFFICIENT\": 59,\n    \"INCONSISTENT\": 5\n  },\n  \"quantized\": {\n    \"PROVED\": 37,\n    \"INSUFFICIENT\": 44,\n    \"INCONSISTENT\": 5\n  },\n  \"certificates\": {\n    \"linear\": 22,\n    \"quantized\": 15,\n    \"none\": 37,\n    \"inconsistent\": 5,\n    \"finite_cover\": 7\n  },\n  \"grid_states_per_enumerator\": 9419,\n  \"basis_systems\": 9021,\n  \"cpu_s\": 0.565880696,\n  \"wall_s\": 0.5660946809999956,\n  \"peak_rss_kib\": 15408,\n  \"certificate_bytes\": {\n    \"sum\": 7479,\n    \"min\": 88,\n    \"max\": 281\n  },\n  \"maxima\": {\n    \"inputs\": 3,\n    \"nodes\": 6,\n    \"observables\": 3,\n    \"inequalities\": 12,\n    \"max_compiled_bits\": 130,\n    \"enumerated_states\": 4096\n  },\n  \"finite_cover_state_visits\": 67\n}\n"
+        },
+        {
+          "arguments": [
+            "summarize_tpeg.py",
+            "--source",
+            "reproduction/tpeg_results",
+            "--output",
+            "reproduction/tables"
+          ],
+          "returncode": 0,
+          "wall_s": 0.027010803999999666,
+          "output": "{\n  \"cases\": 72,\n  \"exact\": {\n    \"PROVED\": 42,\n    \"INSUFFICIENT\": 22,\n    \"INCONSISTENT\": 8\n  },\n  \"certificates\": {\n    \"uniform_cut\": 36,\n    \"none\": 22,\n    \"signature_cover\": 6,\n    \"inconsistent\": 8\n  },\n  \"sink_zero_proved\": 12,\n  \"uniform_cut_proved\": 36,\n  \"complete_finite_proved\": 42,\n  \"states_per_independent_enumerator\": 49258,\n  \"admitted_states\": 31197,\n  \"unsafe_states\": 62,\n  \"distinct_signature_sum\": 729,\n  \"cpu_s\": 48.993622445,\n  \"wall_s\": 48.99980670300001,\n  \"peak_rss_kib\": 16540,\n  \"certificate_bytes\": {\n    \"sum\": 52370,\n    \"min_nonzero\": 173,\n    \"max\": 13277\n  },\n  \"maxima\": {\n    \"inputs\": 12,\n    \"nodes\": 18,\n    \"observables\": 2,\n    \"inequalities\": 24,\n    \"vertices\": 8,\n    \"edges\": 12,\n    \"enumerated_states\": 4096,\n    \"feasible_states\": 4096,\n    \"distinct_signatures\": 64,\n    \"maximal_signatures\": 64,\n    \"wall_s\": 4.7087610549999965\n  }\n}\n"
+        },
+        {
+          "arguments": [
+            "src/checker.py",
+            "cases/case-002.json",
+            "results/certificates/case-002.json"
+          ],
+          "returncode": 0,
+          "wall_s": 0.03049993799999129,
+          "output": "PROVED\n"
+        },
+        {
+          "arguments": [
+            "src/tpeg_checker.py",
+            "tpeg_cases/tpeg-021.json",
+            "tpeg_results/certificates/tpeg-021.json"
+          ],
+          "returncode": 0,
+          "wall_s": 0.03409938800000134,
+          "output": "PROVED\n"
+        },
+        {
+          "arguments": [
+            "src/tpeg_checker.py",
+            "tpeg_cases/tpeg-044.json",
+            "tpeg_results/certificates/tpeg-044.json"
+          ],
+          "returncode": 0,
+          "wall_s": 2.2532619069999953,
+          "output": "PROVED\n"
+        }
+      ],
+      "total_cpu_s": 20.716085424,
+      "test_methods": 74,
+      "arithmetic_meta_models": 3915,
+      "tpeg_meta_antichains": 2865
+    }
+  ],
+  "total_cpu_s": 71.002050868,
+  "cumulative_stage_wall_s": 71.161271121,
+  "peak_rss_kib": 19712,
+  "scope": "Fresh generation and execution of 86 arithmetic regressions and 72 TPEG models; certificate comparison; independent finite oracles; 74 mutation-oriented test methods; exhaustive 3,915-model arithmetic and 2,865-antichain TPEG meta-checks; aggregate tables; and standalone checker entry points. Paper compilation is separate."
+}

@@ -1,0 +1,9 @@
+test_core_failure_is_not_relabelled_success (tests.test_reproduction_gates.ReproductionGateTests.test_core_failure_is_not_relabelled_success) ... ok
+test_full_routes_preserve_both_gates (tests.test_reproduction_gates.ReproductionGateTests.test_full_routes_preserve_both_gates) ... ok
+test_gate_failure_propagates (tests.test_reproduction_gates.ReproductionGateTests.test_gate_failure_propagates) ... ok
+test_partial_routes_do_not_claim_final_validation (tests.test_reproduction_gates.ReproductionGateTests.test_partial_routes_do_not_claim_final_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+OK

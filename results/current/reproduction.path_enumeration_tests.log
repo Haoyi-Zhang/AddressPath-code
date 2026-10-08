@@ -1,0 +1,9 @@
+test_live_branch_still_counts_toward_path_cap (tests.test_path_enumeration.PathEnumerationTests.test_live_branch_still_counts_toward_path_cap) ... ok
+test_one_bad_path_with_64_dead_diamonds (tests.test_path_enumeration.PathEnumerationTests.test_one_bad_path_with_64_dead_diamonds) ... ok
+test_reachability_scans_reverse_order_chain_once (tests.test_path_enumeration.PathEnumerationTests.test_reachability_scans_reverse_order_chain_once) ... ok
+test_structurally_unreachable_bad_skips_dead_diamonds (tests.test_path_enumeration.PathEnumerationTests.test_structurally_unreachable_bad_skips_dead_diamonds) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.008s
+
+OK

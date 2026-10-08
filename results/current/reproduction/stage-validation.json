@@ -1,0 +1,99 @@
+{
+  "stage": "validation",
+  "status": "PASS",
+  "parent_cpu_s": 0.006517424000000004,
+  "child_cpu_s": 20.709568,
+  "wall_s": 20.744109959,
+  "parent_peak_rss_kib": 15436,
+  "child_peak_rss_kib": 19712,
+  "steps": [
+    {
+      "arguments": [
+        "run_tests.py",
+        "--output",
+        "reproduction/validation"
+      ],
+      "returncode": 0,
+      "wall_s": 15.588896957000003,
+      "output": "{\"methods\": 74, \"passed\": true, \"failures\": 0, \"errors\": 0, \"cpu_s\": 15.483515278, \"wall_s\": 15.485808219999996, \"peak_rss_kib\": 19584, \"arithmetic_certificate_calls\": 212, \"tpeg_certificate_calls\": 77, \"accepted\": 174, \"rejected\": 115, \"finite_cover_state_visit_upper_bound\": 4285, \"signature_cover_state_visit_upper_bound\": 57352, \"certificate_calls\": 289}\n"
+    },
+    {
+      "arguments": [
+        "exhaustive_meta.py",
+        "--output",
+        "reproduction/validation/meta-check.json"
+      ],
+      "returncode": 0,
+      "wall_s": 1.6535856739999986,
+      "output": "{\n  \"vertices\": 4,\n  \"possible_topological_edges\": 6,\n  \"max_graph_edges\": 4,\n  \"structurally_relevant_graphs\": 40,\n  \"maximal_signature_antichains\": 2865,\n  \"signature_members_checked\": 7398,\n  \"safe_families\": 683,\n  \"unsafe_families\": 2182,\n  \"uniform_cut_safe_families\": 363,\n  \"signature_cover_only_safe_families\": 320,\n  \"source_side_sets_per_family\": 4,\n  \"source_side_sets_checked\": 11460,\n  \"checks\": {\n    \"maximal_signature_characterization\": \"PASS\",\n    \"uniform_zero_cut_characterization\": \"PASS\"\n  },\n  \"cpu_s\": 1.62682842,\n  \"wall_s\": 1.626521181000001,\n  \"peak_rss_kib\": 15824\n}\n"
+    },
+    {
+      "arguments": [
+        "exhaustive_arithmetic_meta.py",
+        "--output",
+        "reproduction/validation/arithmetic-meta-check.json"
+      ],
+      "returncode": 0,
+      "wall_s": 1.124561884000002,
+      "output": "{\n  \"models\": 3915,\n  \"one_input_models\": 3375,\n  \"two_input_models\": 540,\n  \"finite_states_evaluated\": 11160,\n  \"admitted_states\": 4106,\n  \"violating_states\": 1513,\n  \"status_counts\": {\n    \"INCONSISTENT\": 1752,\n    \"INSUFFICIENT\": 941,\n    \"PROVED\": 1222\n  },\n  \"certificate_kind_counts\": {\n    \"finite_cover\": 40,\n    \"inconsistent\": 1712,\n    \"linear\": 1182,\n    \"quantized\": 40\n  },\n  \"proof_layer_counts\": {\n    \"finite_cover\": 40,\n    \"linear_or_inconsistency\": 2894,\n    \"no_certificate\": 941,\n    \"quantized\": 40\n  },\n  \"maximum_basis_systems\": 43,\n  \"checks\": {\n    \"direct_status_vs_producer\": \"PASS\",\n    \"favorable_certificate_vs_checker\": \"PASS\",\n    \"insufficient_has_no_certificate\": \"PASS\",\n    \"all_decisions_and_certificate_kinds_exercised\": \"PASS\"\n  },\n  \"cpu_s\": 1.087887258,\n  \"wall_s\": 1.0872062629999988,\n  \"peak_rss_kib\": 15600\n}\n"
+    },
+    {
+      "arguments": [
+        "summarize.py",
+        "--source",
+        "reproduction/results",
+        "--output",
+        "reproduction/tables"
+      ],
+      "returncode": 0,
+      "wall_s": 0.03020381299999997,
+      "output": "{\n  \"cases\": 86,\n  \"exact\": {\n    \"PROVED\": 41,\n    \"INSUFFICIENT\": 37,\n    \"INCONSISTENT\": 8\n  },\n  \"linear\": {\n    \"PROVED\": 22,\n    \"INSUFFICIENT\": 59,\n    \"INCONSISTENT\": 5\n  },\n  \"quantized\": {\n    \"PROVED\": 37,\n    \"INSUFFICIENT\": 44,\n    \"INCONSISTENT\": 5\n  },\n  \"certificates\": {\n    \"linear\": 22,\n    \"quantized\": 15,\n    \"none\": 37,\n    \"inconsistent\": 5,\n    \"finite_cover\": 7\n  },\n  \"grid_states_per_enumerator\": 9419,\n  \"basis_systems\": 9021,\n  \"cpu_s\": 0.565880696,\n  \"wall_s\": 0.5660946809999956,\n  \"peak_rss_kib\": 15408,\n  \"certificate_bytes\": {\n    \"sum\": 7479,\n    \"min\": 88,\n    \"max\": 281\n  },\n  \"maxima\": {\n    \"inputs\": 3,\n    \"nodes\": 6,\n    \"observables\": 3,\n    \"inequalities\": 12,\n    \"max_compiled_bits\": 130,\n    \"enumerated_states\": 4096\n  },\n  \"finite_cover_state_visits\": 67\n}\n"
+    },
+    {
+      "arguments": [
+        "summarize_tpeg.py",
+        "--source",
+        "reproduction/tpeg_results",
+        "--output",
+        "reproduction/tables"
+      ],
+      "returncode": 0,
+      "wall_s": 0.027010803999999666,
+      "output": "{\n  \"cases\": 72,\n  \"exact\": {\n    \"PROVED\": 42,\n    \"INSUFFICIENT\": 22,\n    \"INCONSISTENT\": 8\n  },\n  \"certificates\": {\n    \"uniform_cut\": 36,\n    \"none\": 22,\n    \"signature_cover\": 6,\n    \"inconsistent\": 8\n  },\n  \"sink_zero_proved\": 12,\n  \"uniform_cut_proved\": 36,\n  \"complete_finite_proved\": 42,\n  \"states_per_independent_enumerator\": 49258,\n  \"admitted_states\": 31197,\n  \"unsafe_states\": 62,\n  \"distinct_signature_sum\": 729,\n  \"cpu_s\": 48.993622445,\n  \"wall_s\": 48.99980670300001,\n  \"peak_rss_kib\": 16540,\n  \"certificate_bytes\": {\n    \"sum\": 52370,\n    \"min_nonzero\": 173,\n    \"max\": 13277\n  },\n  \"maxima\": {\n    \"inputs\": 12,\n    \"nodes\": 18,\n    \"observables\": 2,\n    \"inequalities\": 24,\n    \"vertices\": 8,\n    \"edges\": 12,\n    \"enumerated_states\": 4096,\n    \"feasible_states\": 4096,\n    \"distinct_signatures\": 64,\n    \"maximal_signatures\": 64,\n    \"wall_s\": 4.7087610549999965\n  }\n}\n"
+    },
+    {
+      "arguments": [
+        "src/checker.py",
+        "cases/case-002.json",
+        "results/certificates/case-002.json"
+      ],
+      "returncode": 0,
+      "wall_s": 0.03049993799999129,
+      "output": "PROVED\n"
+    },
+    {
+      "arguments": [
+        "src/tpeg_checker.py",
+        "tpeg_cases/tpeg-021.json",
+        "tpeg_results/certificates/tpeg-021.json"
+      ],
+      "returncode": 0,
+      "wall_s": 0.03409938800000134,
+      "output": "PROVED\n"
+    },
+    {
+      "arguments": [
+        "src/tpeg_checker.py",
+        "tpeg_cases/tpeg-044.json",
+        "tpeg_results/certificates/tpeg-044.json"
+      ],
+      "returncode": 0,
+      "wall_s": 2.2532619069999953,
+      "output": "PROVED\n"
+    }
+  ],
+  "total_cpu_s": 20.716085424,
+  "test_methods": 74,
+  "arithmetic_meta_models": 3915,
+  "tpeg_meta_antichains": 2865
+}
